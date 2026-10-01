@@ -1,0 +1,27 @@
+{
+ "api": ">=1.1,<2",
+ "capabilities": [
+  "network"
+ ],
+ "entry": {
+  "cmd": [
+   "{python}",
+   "{pkg}/main.py"
+  ]
+ },
+ "fields": {
+  "greeting": {
+   "max_len": 50,
+   "set_by": [
+    "addon"
+   ],
+   "show": true,
+   "type": "string"
+  }
+ },
+ "min_core": "2.0.0.dev0",
+ "name": "hello",
+ "schema": "orch.addon/3",
+ "title": "Hello",
+ "version": "1.0.2"
+}
