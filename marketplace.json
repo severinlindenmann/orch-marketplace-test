@@ -1,24 +1,24 @@
 {
  "addons": [
   {
+   "api": ">=1.1,<2",
    "capabilities": [
-    "network",
-    "spawn_agent"
+    "choose_model"
    ],
-   "commit": "5eb94a120791917540466959f62fe928bfbcc2f5",
-   "id": "hello",
+   "commit": "09052e96885d2efc3deb02fff8d5b7c961bd1be9",
+   "id": "model-routing",
    "min_orch": "2.0.0.dev0",
-   "package_sha256": "sha256:612e700e571606d8fa9960c448977e28479118210712bc43433ddb0f8ef2f41a",
+   "package_sha256": "sha256:a06abaa0845e1dc8a8825d0dc71454701a2b036041b79ea99fa41f3fa54594a5",
    "publisher": {
     "key": "BLSGr-p0M7obEnj-WFCDbFN3eNBYFr_ciOP814DOiObCXcNNI6IESiGfydtpbvYJLG3ag5cSqA3WlXlWAG78iGs",
-    "sig": "9HUL6u3N44fdsp_lF6PbY4nHcsR6SXTeDsgs4xlrAwdW0E9iVfdHWz3fd3knIPJbfg680HqTDfk4Py29OTkYsQ"
+    "sig": "W1z5qrcZAk9PEwbdq_MdXVQjWmyKgBHCLFyib5VV-CjgT4qLC68KLlAdYKKyPs1NQPGDH5YwOtQ5i3L5knBsjA"
    },
    "source": {
     "git": "https://github.com/severinlindenmann/orch-marketplace-test",
-    "subdir": "addons/hello-1.1.0"
+    "subdir": "packages/model-routing"
    },
-   "summary": "Says hello on a ticket (S13 test add-on)",
-   "version": "1.1.0"
+   "summary": "Chooses the model for agent starts (S13-routing test copy)",
+   "version": "1.0.0"
   }
  ],
  "expires_at": 4102444800,
@@ -26,11 +26,11 @@
  "name": "orch-marketplace-test",
  "signature": {
   "key": "BLSGr-p0M7obEnj-WFCDbFN3eNBYFr_ciOP814DOiObCXcNNI6IESiGfydtpbvYJLG3ag5cSqA3WlXlWAG78iGs",
-  "sig": "PcsVVVlbBV0p7YoKI585n_5Uf_LevC8difp1Gf6w0JtRliEAQUpOOOdyVo0CHF-0OU4Tw5l4ka80gxJ3y6TrDw"
+  "sig": "0OAurHloJImCh2XfNo1VbLvAei8O7L4VJjDE0bA6Yt0KLk2A2iPiIGdWsAaP9a-HDj5p4cY65LCzgjMNlHVaxw"
  },
  "source": {
   "git": "https://github.com/severinlindenmann/orch-marketplace-test"
  },
  "title": "orch test marketplace (S13)",
- "version": 7
+ "version": 8
 }
