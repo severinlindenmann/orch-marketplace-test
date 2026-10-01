@@ -1,0 +1,35 @@
+{
+ "addons": [
+  {
+   "capabilities": [
+    "network"
+   ],
+   "commit": "71bc282e2f7d0116d4eae7da4316261c25cf79c9",
+   "id": "hello",
+   "min_orch": "2.0.0",
+   "package_sha256": "sha256:a3490bbd496e466e0bc92ce372b1fe5058938da238503ff0468df076a1930c7b",
+   "publisher": {
+    "key": "BLSGr-p0M7obEnj-WFCDbFN3eNBYFr_ciOP814DOiObCXcNNI6IESiGfydtpbvYJLG3ag5cSqA3WlXlWAG78iGs",
+    "sig": "PydWvWeeL5oFJpnrHex4sx4E1Vz1hkObSy8EgdwPTbgPEj4Bsi9jziX_AXVbz2V2zLKLQ6Wm5PyoHJYvSRBddA"
+   },
+   "source": {
+    "git": "https://github.com/severinlindenmann/orch-marketplace-test",
+    "subdir": "addons/hello-1.0.0"
+   },
+   "summary": "Says hello on a ticket (S13 test add-on)",
+   "version": "1.0.0"
+  }
+ ],
+ "expires_at": 4102444800,
+ "format": "orch.market/1",
+ "name": "orch-marketplace-test",
+ "signature": {
+  "key": "BLSGr-p0M7obEnj-WFCDbFN3eNBYFr_ciOP814DOiObCXcNNI6IESiGfydtpbvYJLG3ag5cSqA3WlXlWAG78iGs",
+  "sig": "2BmWdb_qli1RJCkfumR03TXDISck_EkBYWJ7aH6b9yzub-_YH62HYOhUWKhOLXGQljS4rRrembxw99oW7HHwEg"
+ },
+ "source": {
+  "git": "https://github.com/severinlindenmann/orch-marketplace-test"
+ },
+ "title": "orch test marketplace (S13)",
+ "version": 1
+}
