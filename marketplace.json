@@ -1,21 +1,23 @@
 {
  "addons": [
   {
-   "capabilities": [],
-   "commit": "5eb94a120791917540466959f62fe928bfbcc2f5",
+   "capabilities": [
+    "network"
+   ],
+   "commit": "f52a474e8cae40da9fd0075917ad11521c57f459",
    "id": "hello",
    "min_orch": "2.0.0.dev0",
-   "package_sha256": "sha256:9ee1941fe208d890df93f0c4f06936fd8167b5c161c51309f9b35b25c4d968ae",
+   "package_sha256": "sha256:343c859ec15b467575c41b00b999c298d457863dce72272adcfbc50fb8db2373",
    "publisher": {
     "key": "BLSGr-p0M7obEnj-WFCDbFN3eNBYFr_ciOP814DOiObCXcNNI6IESiGfydtpbvYJLG3ag5cSqA3WlXlWAG78iGs",
-    "sig": "UUXNKDOsuKO9ROgPtFGJG8MNsetLRr2WPkwPu0MSYdef9nXE6B5D0TIfMOj82IZLUUNXZiFCkVkHsbehl5vJXA"
+    "sig": "SH-sn7Ua05nmx-CdZJvnJuzNHtVUJeIHGBYoOnaXBC2XN9SrwKx6Omorm5du112HMWQLAv1Vyyr_tOBkJ7xf_w"
    },
    "source": {
     "git": "https://github.com/severinlindenmann/orch-marketplace-test",
-    "subdir": "addons/hello-1.0.2"
+    "subdir": "addons/hello-1.0.3"
    },
    "summary": "Says hello on a ticket (S13 test add-on)",
-   "version": "1.0.2"
+   "version": "1.0.3"
   }
  ],
  "expires_at": 4102444800,
@@ -23,11 +25,11 @@
  "name": "orch-marketplace-test",
  "signature": {
   "key": "BLSGr-p0M7obEnj-WFCDbFN3eNBYFr_ciOP814DOiObCXcNNI6IESiGfydtpbvYJLG3ag5cSqA3WlXlWAG78iGs",
-  "sig": "kBh2PEqa-0wIW8CTOZ5a4_qzvcnBqmpQGTA2EwdIhN9Y0ZgaLeYjYzypZVrMSYYeumQEsew6i3g4sP9GsJhvwA"
+  "sig": "ujSCWDWNVvYXhZw--NM0ogJMU3GfXdI0S6ukHn6kgtCo4a51UrQQVXV9JgytQ64jmMsG_94ijv0sBay1zj0WJw"
  },
  "source": {
   "git": "https://github.com/severinlindenmann/orch-marketplace-test"
  },
  "title": "orch test marketplace (S13)",
- "version": 3
+ "version": 4
 }
